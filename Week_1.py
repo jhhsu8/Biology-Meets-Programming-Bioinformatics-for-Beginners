@@ -173,7 +173,6 @@ def Complement(Pattern):
     return string
 
 #Exercise 9
-
 # fill in your PatternMatching() function along with any subroutines that you need.
 def PatternMatching(Pattern, Genome):
     positions = []
@@ -183,8 +182,6 @@ def PatternMatching(Pattern, Genome):
             positions.append(index)
         index = index + 1
     return positions
-
-
 
 #Exercise 10
 # Copy your PatternMatching function below this line.
